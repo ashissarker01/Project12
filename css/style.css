@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.ashis{
+   
+    background: url(../images/sir.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+}
+
+.overlay{
+    padding: 350px 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+   
+}
+
+h1{
+   
+    color:white;
+    
+    display: inline-block;
+    position: relative;
+   
+}
+h1::after{
+    position: absolute;
+    height: 7px;
+    width: 70px;
+    background-color: pink;
+    top: 50%;
+    left: -80px;
+    content:"";
+    border-radius: 50px;
+    transform: translateY(-50%);
+    border: double red;
+}
+h1::before{
+    position: absolute;
+    height: 7px;
+    width: 70px;
+    background-color: pink;
+    top: 50%;
+    right: -80px;
+    content:"";
+    border-radius: 50px;
+    transform: translateY(-50%);
+    border: double red;
+}
+
+.a{
+    height: 70px;
+    width: 7px;
+    background-color: pink;
+    left: 50%;
+    bottom: 31%;
+    position: absolute;
+    border-radius: 50px;
+    border: double red;
+    transform: translateX(-50%);
+}
+.b{
+    height: 70px;
+    width: 7px;
+    background-color: pink;
+    top: 39%;
+    left: 50%;
+    position: absolute;
+    border-radius: 50px;
+    border: double red;
+    transform: translateX(-50%);
+}
+
+
